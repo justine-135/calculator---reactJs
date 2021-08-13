@@ -1,0 +1,156 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.App {
+	font-size: 4.8rem;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(19, 19, 19);
+}
+
+button {
+	font-size: 4.8rem;
+	padding: 1rem 1rem;
+	border: none;
+	color: white;
+}
+
+.calculator-div {
+	height: 570px;
+	width: 300px;
+	background-color: rgb(32, 32, 32);
+	padding: 1rem 1rem;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px gray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	background-color: rgb(59, 59, 59);
+	display: flex;
+	align-items: center;
+	padding: 1rem 1rem;
+	border-radius: 5px;
+	color: white;
+	margin-bottom: 1rem;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	font-size: 3.2rem;
+	height: 70px;
+}
+
+input[type="number"]:focus {
+	outline: none;
+}
+
+.indicator {
+	width: 70%;
+}
+
+.indicator-2 {
+	width: 100%;
+}
+
+.indicator-div {
+	display: flex;
+}
+
+.indicator-div h6 {
+	display: flex;
+	align-items: center;
+	font-size: 4.8rem;
+	color: white;
+	width: 30%;
+	justify-content: center;
+}
+
+.indicator::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+.indicator::-webkit-scrollbar-track {
+	background-color: white;
+}
+
+.indicator::-webkit-scrollbar-thumb {
+	background-color: rgb(58, 58, 58);
+}
+
+.calc-body {
+	height: 73%;
+	width: 93%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.calc-body button {
+	width: 65px;
+}
+
+.num-pad {
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.num-pad button {
+	background-color: rgb(255, 195, 122);
+}
+
+.num-pad button:nth-child(10) {
+	background-color: rgb(255, 38, 38);
+}
+
+.operation-pad {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1px;
+}
+
+.operation-pad button {
+	background-color: rgb(51, 71, 255);
+	margin-bottom: 4px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.operation-pad button:nth-child(4) {
+	margin-bottom: 2px;
+}
+
+.equal {
+	width: 93%;
+	background-color: rgb(175, 97, 248);
+	border-radius: 0px 0px 10px 10px;
+	margin-top: 2px;
+}
+
+.seven {
+	border-radius: 10px 0px 0px 0px;
+}
+
+.plus {
+	border-radius: 0px 10px 0px 0px;
+}
