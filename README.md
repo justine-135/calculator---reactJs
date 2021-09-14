@@ -1,3 +1,9 @@
+# Calculator using React
+
+Project to enhance my state management skills as a beginner.
+
+Usage is the same as a normal calculator lol no added features or anything.. i'm still getting used to it.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
